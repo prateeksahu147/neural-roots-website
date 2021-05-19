@@ -1,0 +1,212 @@
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+
+}
+
+.hero {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+  padding-left: 80px;
+
+
+}
+.left-aline{
+  height: 200px;
+  width: 60%;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+#hero {
+  width: 100%;
+  height: 60vh;
+  background:whitesmoke;
+}
+#hero .container {
+  padding-top: 20px;
+  background:whitesmoke;
+}
+
+
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+
+
+.container12 {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      
+    }
+    
+    .container12 img {
+      vertical-align: middle;
+      height: 250px;
+      }
+    
+    .container12 .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 5px;
+    }
+    
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+    
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+    
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+    
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+/* this style is for icons - social media    */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* end icon */
+
+
+
+/* blog html */
+
+<style>
+
+
+
+    .container12 {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      
+    }
+    /*
+    .container12 img {
+      vertical-align: middle;
+      height: 250px;
+      }
+    
+    .container12 .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color *
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity *
+      color: #f1f1f1;
+      width: 100%;
+      padding: 5px;
+    }
+*/
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+    
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+    
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+    
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+    

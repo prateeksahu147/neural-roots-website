@@ -1,0 +1,17 @@
+hello
+{% load static %}
+
+
+<!--
+    This is Django from method 
+    it create form from your models
+    "form.as_p" method get all your fields from model to  html page
+-->
+
+    <form method="POST" >
+        {% csrf_token %}
+        {{ form.media }}
+        {{ form.as_p }}
+        <button>Post</button>
+
+    </form>

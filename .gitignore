@@ -125,5 +125,17 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+
+
+# Text backup files
+*.bak
+
+# Database
+*.sqlite3
+
+
+
+
+
 # Pyre type checker
 .pyre/
