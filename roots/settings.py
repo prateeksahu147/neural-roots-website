@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-8-yr*uok1#1iqm!6!$wht&sw0u=xo%wv(=)b8%!o-^a9o=x-vm
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ["neuralroots.herokuapp.com"]
+ALLOWED_HOSTS = ["neuralroots.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
